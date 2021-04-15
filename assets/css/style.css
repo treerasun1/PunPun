@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
 }
 
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -119,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #106eea;
+  background: #ff8c00;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -442,6 +443,13 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/2.jpg") top left;
+  background-size: cover;
+  position: relative;
+}
+#Logo {
   width: 100%;
   height: 75vh;
   background: url("../img/2.jpg") top left;
