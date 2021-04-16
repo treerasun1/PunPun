@@ -12,7 +12,7 @@ body {
   width: 3.5em;
   height: 3.5em;
   border-radius: 50%;
-  background-color: #106eea;
+  background-color: #ff8c00;
   box-shadow: 0 2px 5px 0 hsla(0, 0%, 0%, .26);  
   color: hsl(0, 0%, 100%);
   text-align: center;
@@ -48,12 +48,12 @@ body {
   top: 0;
   right: 0;
   z-index: -2;
-  background-color: #106eea;
+  background-color: #ff8c00;
   transition: all .3s ease;
 }
 
 .circular-menu.active:after {
-  transform: scale3d(5.5, 5.5, 1);
+  transform: scale3d(4.5, 4.5, 1);
   transition-timing-function: cubic-bezier(.68, 1.55, .265, 1);
 }
 
@@ -88,16 +88,23 @@ body {
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
+
 .circular-menu.active .menu-item:nth-child(1) {
-  transform: translate3d(1em,-7em,0);
+  transform: translate3d(0.4em,-5em,0);
+  background: url("../img/Ling.png")  center;
+  background-color: #00c300;
 }
 
 .circular-menu.active .menu-item:nth-child(2) {
-  transform: translate3d(-3.5em,-6.3em,0);
+  transform: translate3d(-3em,-3.2em,0);
+  background: url("../img/Phone.png")  center;
+  background-color: #01753c;
 }
 
 .circular-menu.active .menu-item:nth-child(3) {
-  transform: translate3d(-6.5em,-3.2em,0);
+  transform: translate3d(-4.8em,0.5em,0);
+  background: url("../img/Email.png")  center;
+  background-color: #FF3333;
 }
 
 .circular-menu.active .menu-item:nth-child(4) {
